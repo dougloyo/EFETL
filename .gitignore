@@ -1,0 +1,50 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+#User-specific files
+*.suo
+*.csproj.user
+*.sln.DotSettings.user
+*.ncrunchproject
+*.ncrunchsolution.user
+_NCrunch_MetricsDb
+.workspaceInitialized
+DeveloperConfig
+
+#Vim backup files
+*~
+
+#Resharper files
+_ReSharper.*
+*.resharper
+*.resharper.user
+
+#Others
+*.cache
+src/DatabaseCompare/*.dbmdl
+src/Spiner.Web/Properties/Resources.resx
+src/Web.UI/Properties/Resources.resx
+
+#Packages
+src/packages/*
+!src/packages/repositories.config
+
+#Database
+Database/Backup
+
+src/MetricsDBTests.VisualState.xml
+src/TestResult.xml
+src/Spiner.6.5.TeamCity.user
+src/Spiner.1.2.dotCover
+src/Spiner.Web/Spiner.Web.csproj.DotSettings.user
+src/DatabaseCompare/DatabaseCompare.sqlproj.user
+
+#Content pushed into the scope of the web application
+src/EdFiDocs/ExternallyGeneratedContent/SchemaSite/HtmlFragments
+src/EdFiDocs/ExternallyGeneratedContent/SchemaSite/Ed-Fi-Core_diagrams
+src/EdFiDocs/ExternallyGeneratedContent/SpinerImages
+
+#Uploaded Images
+src/Web.UI/Uploads/*/*.png
+src/Web.UI/Uploads/Thumbs.db
